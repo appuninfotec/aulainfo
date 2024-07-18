@@ -1,0 +1,200 @@
+Crie uma tabela com informações pessoais (Nome, Idade, Email, Cidade).
+
+Adicione links para as páginas contato e sobre (estas também devem possuir conteúdo).
+
+As páginas contato e sobre deverão ter um link para a página inicial.
+
+Estrutura do Projeto
+
+pasta do projeto/
+
+index.html
+
+contato/
+
+contato.html
+
+sobre/
+
+sobre.html
+
+img/
+
+perfil.jpg
+
+Dentro da pasta do projeto vamos ter a página inicial e 3 pastas: contato, sobre e img. As páginas contato e sobre deverão possuir os arquivos html referentes aos seus conteúdos.
+
+A pasta img deverá abrigar todas as imagens do projeto.
+
+
+
+Para criar o projeto conforme solicitado, vamos estruturar os arquivos e pastas da seguinte forma:
+
+### Estrutura de Pastas e Arquivos:
+
+```
+pasta do projeto/
+│
+├── index.html
+│
+├── contato/
+│   └── contato.html
+│
+├── sobre/
+│   └── sobre.html
+│
+└── img/
+    └── perfil.jpg
+```
+
+### Conteúdo dos Arquivos HTML:
+
+#### index.html
+Este será o arquivo inicial com a biografia, imagem de perfil, informações pessoais em tabela e links para as páginas contato e sobre.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Pessoal</title>
+    <style>
+        /* Estilos opcionais para a página */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%; /* Para arredondar a imagem de perfil */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perfil Pessoal</h1>
+    </header>
+    
+    <section id="bio">
+        <h2>Biografia</h2>
+        <p>Olá! Meu nome é [Seu Nome]. Sou apaixonado por [área de interesse]. Atualmente, trabalho como [sua ocupação]. Tenho interesse em [assuntos de interesse].</p>
+        
+        <h2>Informações Pessoais</h2>
+        <table>
+            <tr>
+                <th>Categoria</th>
+                <th>Detalhes</th>
+            </tr>
+            <tr>
+                <td>Nome</td>
+                <td>[Seu Nome]</td>
+            </tr>
+            <tr>
+                <td>Idade</td>
+                <td>XX anos</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><a href="mailto:seuemail@example.com">seuemail@example.com</a></td>
+            </tr>
+            <tr>
+                <td>Cidade</td>
+                <td>[Sua Cidade]</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="foto">
+        <h2>Imagem de Perfil</h2>
+        <img src="img/perfil.jpg" alt="Imagem de Perfil">
+    </section>
+
+    <footer>
+        <p>Para mais informações, visite:</p>
+        <ul>
+            <li><a href="sobre/sobre.html">Sobre Mim</a></li>
+            <li><a href="contato/contato.html">Contato</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+```
+
+#### contato.html
+Página de contato com informações para contato e um link de volta para a página inicial.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+    </header>
+    
+    <section>
+        <h2>Informações de Contato</h2>
+        <p>Para entrar em contato comigo, utilize o email <a href="mailto:seuemail@example.com">seuemail@example.com</a>.</p>
+    </section>
+
+    <footer>
+        <p><a href="../index.html">Voltar para o Perfil Pessoal</a></p>
+    </footer>
+</body>
+</html>
+```
+
+#### sobre.html
+Página "Sobre" com mais informações sobre você e um link de volta para a página inicial.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+</head>
+<body>
+    <header>
+        <h1>Sobre</h1>
+    </header>
+    
+    <section>
+        <h2>Mais sobre mim</h2>
+        <p>Eu sou [Seu Nome], e aqui você pode saber mais sobre minhas experiências e interesses.</p>
+    </section>
+
+    <footer>
+        <p><a href="../index.html">Voltar para o Perfil Pessoal</a></p>
+    </footer>
+</body>
+</html>
+```
+
+### Considerações Finais:
+Certifique-se de substituir `[Seu Nome]`, `[Sua Cidade]`, `seuemail@example.com` e outras informações conforme seu perfil pessoal. Além disso, substitua `img/perfil.jpg` pelo caminho correto para a sua imagem de perfil dentro da pasta `img`.
+
+Com esta estrutura e conteúdo, seu projeto de perfil pessoal estará organizado e funcional, com todas as páginas interligadas conforme solicitado.
