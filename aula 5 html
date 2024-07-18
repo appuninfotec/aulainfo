@@ -1,0 +1,127 @@
+Claro! Vamos incrementar o projeto da página HTML sobre a viagem dos sonhos, adicionando os elementos imagem, link e tabela.
+
+### 1. Estrutura da Página HTML Incrementada
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Viagem dos Sonhos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2E8B57;
+        }
+        .destinos {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        .importante {
+            font-weight: bold;
+            color: #FF4500;
+        }
+        .itálico {
+            font-style: italic;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Viagem dos Sonhos</h1>
+    <p>Desde que me lembro, sempre sonhei em viajar pelo mundo e conhecer diferentes culturas, paisagens deslumbrantes e experimentar novas culinárias. Planejar essa viagem dos sonhos me enche de entusiasmo e emoção.</p>
+    <p>Minha viagem ideal inclui uma combinação de aventuras emocionantes e momentos de relaxamento em lugares paradisíacos. Aqui estão alguns dos destinos que eu mais desejo visitar:</p>
+    
+    <ul class="destinos">
+        <li><span class="importante">Japão</span> - Explorando a mistura única de tecnologia avançada e tradições antigas, além de apreciar a <span class="itálico">sakura</span> na primavera.</li>
+        <li><span class="importante">Itália</span> - Degustando a autêntica comida italiana, visitando as ruínas romanas e apreciando a arte renascentista em Florença.</li>
+        <li><span class="importante">Nova Zelândia</span> - Aventurando-se nos cenários espetaculares dos filmes de "O Senhor dos Anéis" e praticando esportes radicais.</li>
+        <li><span class="importante">Maldivas</span> - Relaxando em praias de areia branca e águas cristalinas, aproveitando um refúgio tranquilo e luxuoso.</li>
+        <li><span class="importante">Peru</span> - Explorando a antiga cidade de Machu Picchu e aprendendo sobre a rica história dos Incas.</li>
+    </ul>
+
+    <p>Confira algumas das paisagens dos destinos que desejo visitar:</p>
+    <img src="https://example.com/japao.jpg" alt="Paisagem do Japão">
+    <img src="https://example.com/italia.jpg" alt="Paisagem da Itália">
+    <img src="https://example.com/nova_zelandia.jpg" alt="Paisagem da Nova Zelândia">
+    <img src="https://example.com/maldivas.jpg" alt="Paisagem das Maldivas">
+    <img src="https://example.com/peru.jpg" alt="Paisagem do Peru">
+
+    <p>Para mais informações sobre esses destinos, você pode visitar os seguintes links:</p>
+    <ul>
+        <li><a href="https://www.japan.travel/" target="_blank">Turismo no Japão</a></li>
+        <li><a href="https://www.italia.it/" target="_blank">Turismo na Itália</a></li>
+        <li><a href="https://www.newzealand.com/" target="_blank">Turismo na Nova Zelândia</a></li>
+        <li><a href="https://visitmaldives.com/" target="_blank">Turismo nas Maldivas</a></li>
+        <li><a href="https://www.peru.travel/" target="_blank">Turismo no Peru</a></li>
+    </ul>
+
+    <p>Aqui está uma tabela com algumas das atividades que gostaria de realizar em cada destino:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Destino</th>
+                <th>Atividades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Japão</td>
+                <td>Visitar templos antigos, apreciar a sakura, experimentar a culinária local</td>
+            </tr>
+            <tr>
+                <td>Itália</td>
+                <td>Visitar ruínas romanas, apreciar arte renascentista, degustar vinhos</td>
+            </tr>
+            <tr>
+                <td>Nova Zelândia</td>
+                <td>Explorar cenários de filmes, praticar esportes radicais, fazer trilhas</td>
+            </tr>
+            <tr>
+                <td>Maldivas</td>
+                <td>Relaxar em praias paradisíacas, fazer mergulho, desfrutar de resorts de luxo</td>
+            </tr>
+            <tr>
+                <td>Peru</td>
+                <td>Explorar Machu Picchu, conhecer a cultura Inca, fazer trilhas na Cordilheira dos Andes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>A viagem dos meus sonhos é uma oportunidade para me desconectar da rotina diária, aprender sobre o mundo e enriquecer minha vida com experiências inesquecíveis. Um dia, espero transformar esse sonho em realidade!</p>
+</body>
+</html>
+```
+
+### Detalhes dos Incrementos:
+
+- **Imagens:** Usamos a tag `<img>` para incluir imagens representativas de cada destino. As URLs das imagens são placeholders (exemplo) e devem ser substituídas por URLs válidas.
+- **Links:** Utilizamos a tag `<a>` para criar links para sites de turismo dos destinos desejados.
+- **Tabela:** Adicionamos uma tabela com `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, e `<td>` para listar atividades desejadas em cada destino.
+
+### Testando a Página HTML
+
+Salve o arquivo e abra-o em um navegador da web. Verifique se todas as imagens são exibidas corretamente, os links funcionam e a tabela está bem formatada.
+
+Isso garante que a página HTML esteja incrementada com imagens, links e tabela, melhorando a apresentação e fornecendo informações adicionais de forma organizada.
