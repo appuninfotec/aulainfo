@@ -1,0 +1,49 @@
+1) Crie um algoritmo utilizando linguagem natural que descreva o procedimento para a troca de uma lâmpada queimada. 
+   Você deve pensar nas possíveis situações que podem ocorrer. Por exemplo, 
+    se a lâmpada não estiver queimada?, e se a nova lâmpada, que você trocou também estiver queimada?
+
+2) Crie um algoritmo utilizando linguagem natural que descreva o procedimento de algum algoritmo do seu dia a dia.
+
+3) Crie um algoritmo utilizando linguagem natural que leia três números e escreva (mostre) qual deles é o maior.
+
+
+### 1. Troca de uma lâmpada queimada
+1. Verifique se a lâmpada está realmente queimada:
+    - Tente ligar a lâmpada.
+    - Se a lâmpada não acender, continue para o próximo passo.
+    - Se a lâmpada acender, não há necessidade de trocá-la.
+2. Desligue a energia elétrica para evitar choques.
+3. Aguarde alguns minutos para garantir que a lâmpada esteja fria.
+4. Remova a lâmpada queimada cuidadosamente, girando-a no sentido anti-horário.
+5. Verifique a lâmpada removida:
+    - Se estiver queimada, descarte-a adequadamente.
+    - Se não estiver queimada, pode haver um problema no soquete ou na fiação. Nesse caso, consulte um eletricista.
+6. Pegue uma lâmpada nova e teste-a:
+    - Instale a nova lâmpada, girando-a no sentido horário.
+    - Ligue a energia elétrica.
+    - Tente ligar a lâmpada.
+    - Se a nova lâmpada acender, a troca foi bem-sucedida.
+    - Se a nova lâmpada não acender, a lâmpada nova pode estar queimada ou pode haver um problema no soquete ou na fiação. Teste a lâmpada em outro soquete para confirmar se está queimada.
+7. Se a nova lâmpada estiver queimada, substitua-a por outra nova e repita o processo.
+
+### 2. Algoritmo do dia a dia: Preparar um café
+1. Verifique se há água suficiente na cafeteira.
+    - Se não houver, adicione a quantidade necessária de água.
+2. Verifique se há café em pó no compartimento:
+    - Se não houver, adicione a quantidade desejada de café em pó.
+3. Ligue a cafeteira.
+4. Aguarde enquanto a cafeteira prepara o café.
+5. Quando o café estiver pronto, despeje-o em uma xícara.
+6. Adicione açúcar ou adoçante, se desejar.
+7. Mexa bem o café.
+8. Aproveite seu café.
+
+### 3. Algoritmo para encontrar o maior de três números
+1. Leia o primeiro número e armazene-o em uma variável, por exemplo, `A`.
+2. Leia o segundo número e armazene-o em uma variável, por exemplo, `B`.
+3. Leia o terceiro número e armazene-o em uma variável, por exemplo, `C`.
+4. Compare os três números:
+    - Se `A` for maior que `B` e `C`, então `A` é o maior número.
+    - Se `B` for maior que `A` e `C`, então `B` é o maior número.
+    - Se `C` for maior que `A` e `B`, então `C` é o maior número.
+5. Mostre qual dos números é o maior.
