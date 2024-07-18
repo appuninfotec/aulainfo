@@ -1,0 +1,108 @@
+Objetivo
+
+Aplicar os conceitos de elementos textuais, inserção de imagens, criação de tabelas e uso de links em uma página HTML.
+
+Descrição da Atividade
+
+Crie um site para um "Perfil Pessoal". A página inicial deve conter uma biografia breve, uma imagem de perfil, uma tabela com informações pessoais e links para diferentes páginas do site.
+
+Instruções
+
+Escreva uma breve biografia utilizando diferentes elementos textuais (títulos, parágrafos, listas, etc).
+
+Adicione uma imagem de perfil utilizando um arquivo local.
+
+
+
+Para criar uma página HTML para um "Perfil Pessoal" com os elementos solicitados, você pode seguir este exemplo básico:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Pessoal</title>
+    <style>
+        /* Estilos opcionais para a página */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%; /* Para arredondar a imagem de perfil */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perfil Pessoal</h1>
+    </header>
+    
+    <section id="bio">
+        <h2>Biografia</h2>
+        <p>Olá! Meu nome é [Seu Nome]. Sou apaixonado por [área de interesse]. Atualmente, trabalho como [sua ocupação]. Tenho interesse em [assuntos de interesse].</p>
+        
+        <h2>Informações Pessoais</h2>
+        <table>
+            <tr>
+                <th>Categoria</th>
+                <th>Detalhes</th>
+            </tr>
+            <tr>
+                <td>Idade</td>
+                <td>XX anos</td>
+            </tr>
+            <tr>
+                <td>Cidade</td>
+                <td>[Sua Cidade]</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><a href="mailto:seuemail@example.com">seuemail@example.com</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="foto">
+        <h2>Imagem de Perfil</h2>
+        <img src="caminho/para/sua/imagem.jpg" alt="Imagem de Perfil">
+    </section>
+
+    <footer>
+        <p>Para mais informações, visite:</p>
+        <ul>
+            <li><a href="sobre.html">Sobre Mim</a></li>
+            <li><a href="portfolio.html">Meu Portfolio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+```
+
+### Explicação do Código:
+- **Biografia e Informações Pessoais**: Utiliza elementos como `<h1>`, `<h2>`, `<p>` para estruturar o conteúdo da biografia e informações pessoais.
+- **Imagem de Perfil**: Usa a tag `<img>` para exibir uma imagem de perfil. Certifique-se de substituir `"caminho/para/sua/imagem.jpg"` pelo caminho correto da imagem no seu sistema.
+- **Tabela de Informações Pessoais**: Utiliza `<table>`, `<tr>`, `<th>`, `<td>` para organizar informações em forma de tabela.
+- **Links para Outras Páginas**: São fornecidos na seção de rodapé usando `<ul>` e `<li>` para criar uma lista de links.
+
+Você pode salvar esse código em um arquivo `.html` e abrir no seu navegador para visualizar como ficará a página. Certifique-se de ajustar o conteúdo conforme suas informações pessoais.
