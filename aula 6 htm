@@ -1,0 +1,150 @@
+Utilize a imagem abaixo como exemplo e, com base nos elementos textuais do HTML, crie uma página de currículo. O texto deve ser preenchido com seus dados.
+
+Complemente a página abaixo adicionando:
+
+• uma foto sua;
+
+• uma foto da sua cidade;
+
+• um link para a página do curso que você está fazendo neste momento. Como esse link será para um outro site, ele deve abrir em uma nova aba;
+
+• utilize a estrutura de arquivos vista na última aula;
+
+• Enviar todos os arquivos, inclusive as imagens utilizadas, em um arquivo compactado (arquivo zip).
+
+Claro! Vamos criar uma página HTML para o currículo e seguir todas as instruções fornecidas.
+
+### 1. Estrutura da Página HTML para o Currículo
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de [Seu Nome]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2E8B57;
+        }
+        .foto {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+        .foto-cidade {
+            max-width: 300px;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .link-curso {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        .link-curso:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Currículo de [Seu Nome]</h1>
+    
+    <div class="section">
+        <h2>Informações Pessoais</h2>
+        <img src="img/foto_sua.jpg" alt="Foto de [Seu Nome]" class="foto">
+        <p><strong>Nome:</strong> [Seu Nome]</p>
+        <p><strong>Email:</strong> [Seu Email]</p>
+        <p><strong>Telefone:</strong> [Seu Telefone]</p>
+        <p><strong>Endereço:</strong> [Seu Endereço]</p>
+    </div>
+    
+    <div class="section">
+        <h2>Formação Acadêmica</h2>
+        <p><strong>Curso:</strong> [Nome do Curso]</p>
+        <p><strong>Instituição:</strong> [Nome da Instituição]</p>
+        <p><strong>Ano de Conclusão:</strong> [Ano de Conclusão]</p>
+    </div>
+    
+    <div class="section">
+        <h2>Experiência Profissional</h2>
+        <p><strong>[Cargo 1]</strong> - [Empresa 1]</p>
+        <p><em>[Período 1]</em></p>
+        <p>[Descrição das Atividades 1]</p>
+        
+        <p><strong>[Cargo 2]</strong> - [Empresa 2]</p>
+        <p><em>[Período 2]</em></p>
+        <p>[Descrição das Atividades 2]</p>
+    </div>
+    
+    <div class="section">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>[Habilidade 1]</li>
+            <li>[Habilidade 2]</li>
+            <li>[Habilidade 3]</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Cidade Natal</h2>
+        <img src="img/foto_cidade.jpg" alt="Foto da Cidade de [Sua Cidade]" class="foto-cidade">
+        <p>[Descrição da cidade ou algum comentário pessoal sobre a cidade]</p>
+    </div>
+    
+    <div class="section">
+        <h2>Curso Atual</h2>
+        <p>Atualmente estou cursando <a href="https://www.exemplo.com/curso" target="_blank" class="link-curso">[Nome do Curso]</a>.</p>
+    </div>
+</body>
+</html>
+```
+
+### 2. Estrutura de Arquivos
+
+Para organizar os arquivos, siga a estrutura abaixo:
+
+```
+curriculo/
+│
+├── img/
+│   ├── foto_sua.jpg
+│   └── foto_cidade.jpg
+│
+├── index.html
+└── README.txt
+```
+
+### 3. Conteúdo do `README.txt`
+
+```txt
+Este é o projeto do meu currículo.
+
+Estrutura de arquivos:
+
+- index.html: Página HTML do currículo.
+- img/foto_sua.jpg: Foto pessoal.
+- img/foto_cidade.jpg: Foto da cidade natal.
+
+Para visualizar o currículo, abra o arquivo `index.html` em um navegador.
+```
+
+### 4. Criar o Arquivo Compactado
+
+Depois de criar a estrutura de arquivos e colocar as imagens no diretório `img`, você pode compactar a pasta `curriculo` em um arquivo zip.
+
+#### Passos para criar o arquivo zip:
+
+1. Coloque todos os arquivos e pastas mencionados acima na pasta `curriculo`.
+2. Clique com o botão direito na pasta `curriculo` e selecione "Enviar para > Pasta compactada" (ou equivalente no seu sistema operacional).
+
+Isso criará um arquivo `curriculo.zip` contendo todos os arquivos e pastas necessários.
+
+### Nota:
+Substitua os placeholders `[Seu Nome]`, `[Seu Email]`, `[Seu Telefone]`, `[Seu Endereço]`, `[Nome do Curso]`, `[Nome da Instituição]`, `[Ano de Conclusão]`, `[Cargo 1]`, `[Empresa 1]`, `[Período 1]`, `[Descrição das Atividades 1]`, `[Cargo 2]`, `[Empresa 2]`, `[Período 2]`, `[Descrição das Atividades 2]`, `[Habilidade 1]`, `[Habilidade 2]`, `[Habilidade 3]`, `[Sua Cidade]`, e o URL `https://www.exemplo.com/curso` pelos seus dados reais.
