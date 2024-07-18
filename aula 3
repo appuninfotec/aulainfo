@@ -1,0 +1,75 @@
+1) Faça um fluxograma que leia um numero e mostre o sucessor ou antecessor depedendo da escolha do usuario
+
+2) Faça um fluxograma que receba 5 numeros do usuario e, ao final, imprima quantos destes valores são pares.
+
+3) Faça um fluxograma que receba dois numeros, ao final, mostre a sequencia do numero menor até o numero maior. Ex, a=10, b=50, entao a saida é 10,11,12,13,...,50. 4)
+
+Faça um fluxograma que lê dois números, X e Y, calcula X elevado a Y e mostra o resultado. 5) Crie um fluxograma que tem como entrada as notas da 1a. e 2a. avaliações de um aluno, 
+calcule e imprima a média aritimética desse aluno. Cada nota não pode ser menor que 0 e maior que 10. 
+Acrescente uma mensagem 'NOVO CÁLCULO (S/N)?', se a nova entrada for 'S' deve retornar e executar um novo cálculo, caso contrário deverá encerrar o fluxograma.
+
+
+
+### 1. Fluxograma para mostrar o sucessor ou antecessor de um número dependendo da escolha do usuário
+
+#### Passos do Fluxograma
+1. Início
+2. Leia o número `n`
+3. Pergunte ao usuário se ele deseja ver o sucessor ou antecessor (`escolha`)
+4. Se `escolha` for "sucessor":
+    - Calcule `resultado = n + 1`
+    - Mostre `resultado`
+5. Caso contrário, se `escolha` for "antecessor":
+    - Calcule `resultado = n - 1`
+    - Mostre `resultado`
+6. Fim
+
+### 2. Fluxograma para contar quantos dos 5 números são pares
+
+#### Passos do Fluxograma
+1. Início
+2. Inicialize a variável `cont_pares` como 0
+3. Para `i` de 1 até 5, repita:
+    - Leia o número `num`
+    - Se `num % 2 == 0`, incremente `cont_pares`
+4. Mostre `cont_pares`
+5. Fim
+
+### 3. Fluxograma para mostrar a sequência do número menor até o número maior
+
+#### Passos do Fluxograma
+1. Início
+2. Leia o número `a`
+3. Leia o número `b`
+4. Se `a` for maior que `b`, troque os valores de `a` e `b`
+5. Para `i` variando de `a` até `b`, repita:
+    - Mostre `i`
+6. Fim
+
+### 4. Fluxograma para calcular `X` elevado a `Y`
+
+#### Passos do Fluxograma
+1. Início
+2. Leia o número `X`
+3. Leia o número `Y`
+4. Calcule `resultado = X^Y` (X elevado a Y)
+5. Mostre `resultado`
+6. Fim
+
+### 5. Fluxograma para calcular a média de duas notas e repetir o cálculo se solicitado
+
+#### Passos do Fluxograma
+1. Início
+2. Enquanto (verdadeiro), repita:
+    - Leia a nota `nota1`
+    - Se `nota1` for menor que 0 ou maior que 10, mostre "Nota inválida" e volte para ler `nota1`
+    - Leia a nota `nota2`
+    - Se `nota2` for menor que 0 ou maior que 10, mostre "Nota inválida" e volte para ler `nota2`
+    - Calcule `media = (nota1 + nota2) / 2`
+    - Mostre `media`
+    - Pergunte "NOVO CÁLCULO (S/N)?"
+    - Leia a resposta `resposta`
+    - Se `resposta` for igual a "N", pare o loop
+3. Fim
+
+Esses fluxogramas representam a sequência lógica de passos para cada um dos problemas especificados. Eles seguem uma estrutura clara que facilita a compreensão e implementação dos algoritmos.
