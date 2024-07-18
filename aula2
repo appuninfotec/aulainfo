@@ -1,0 +1,101 @@
+1) Crie um algoritmo que leia três números e escreva(mostre) qual deles é o menor.
+
+2) Crie um algoritmo que receba ano, mês e dia e calcule a idade da pessoa.
+
+3) Crie um algoritmo que receba um número e mostre se é primo
+
+4) Faça um fluxograma que leia um numero e informe se é par ou impar.
+
+5) Faça um fluxograma que leia um numero e informe se é divisivel por 5.
+
+
+
+### 1. Algoritmo para encontrar o menor de três números
+1. Leia o primeiro número e armazene-o em uma variável, por exemplo, `A`.
+2. Leia o segundo número e armazene-o em uma variável, por exemplo, `B`.
+3. Leia o terceiro número e armazene-o em uma variável, por exemplo, `C`.
+4. Compare os três números:
+    - Se `A` for menor que `B` e `C`, então `A` é o menor número.
+    - Se `B` for menor que `A` e `C`, então `B` é o menor número.
+    - Se `C` for menor que `A` e `B`, então `C` é o menor número.
+5. Mostre qual dos números é o menor.
+
+### 2. Algoritmo para calcular a idade da pessoa
+1. Leia o ano de nascimento e armazene-o em uma variável, por exemplo, `anoNascimento`.
+2. Leia o mês de nascimento e armazene-o em uma variável, por exemplo, `mesNascimento`.
+3. Leia o dia de nascimento e armazene-o em uma variável, por exemplo, `diaNascimento`.
+4. Obtenha a data atual (ano, mês e dia) e armazene-a em variáveis, por exemplo, `anoAtual`, `mesAtual`, `diaAtual`.
+5. Calcule a idade baseando-se na diferença dos anos:
+    - `idade = anoAtual - anoNascimento`.
+6. Verifique se o mês e o dia de nascimento já passaram no ano atual:
+    - Se o `mesAtual` for menor que o `mesNascimento`, subtraia 1 da `idade`.
+    - Se o `mesAtual` for igual ao `mesNascimento` e o `diaAtual` for menor que o `diaNascimento`, subtraia 1 da `idade`.
+7. Mostre a idade da pessoa.
+
+### 3. Algoritmo que verifica se um número é primo
+1. Leia um número e armazene-o em uma variável, por exemplo, `num`.
+2. Verifique se o número é menor que 2:
+    - Se for, o número não é primo.
+3. Para cada número `i` de 2 até a raiz quadrada de `num`:
+    - Se `num` for divisível por `i` (ou seja, `num % i == 0`), o número não é primo.
+4. Se não houver divisores, o número é primo.
+5. Mostre se o número é primo ou não.
+
+### 4. Fluxograma que informa se um número é par ou ímpar
+Aqui está a descrição do fluxograma:
+
+1. Início.
+2. Leia um número e armazene-o em uma variável, por exemplo, `num`.
+3. Verifique se `num` é divisível por 2 (`num % 2 == 0`):
+    - Se sim, mostre "O número é par".
+    - Se não, mostre "O número é ímpar".
+4. Fim.
+
+### 5. Fluxograma que informa se um número é divisível por 5
+Aqui está a descrição do fluxograma:
+
+1. Início.
+2. Leia um número e armazene-o em uma variável, por exemplo, `num`.
+3. Verifique se `num` é divisível por 5 (`num % 5 == 0`):
+    - Se sim, mostre "O número é divisível por 5".
+    - Se não, mostre "O número não é divisível por 5".
+4. Fim.
+
+Para ilustrar os fluxogramas visualmente, imagine o seguinte:
+
+### Fluxograma - Verificar se um número é par ou ímpar
+```
+   Início
+     |
+  Leia num
+     |
+  num % 2 == 0
+    / \
+   Sim Não
+  /     \
+O número   O número
+ é par    é ímpar
+  \      /
+    \  /
+     Fim
+```
+
+### Fluxograma - Verificar se um número é divisível por 5
+```
+   Início
+     |
+  Leia num
+     |
+  num % 5 == 0
+    / \
+   Sim Não
+  /     \
+O número   O número
+é divisível não é divisível
+por 5       por 5
+  \      /
+    \  /
+     Fim
+```
+
+Essas descrições e fluxogramas ajudam a visualizar o passo a passo de cada processo. Se precisar de mais detalhes ou ajustes, estou à disposição!
