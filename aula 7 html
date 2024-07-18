@@ -1,0 +1,123 @@
+Utilize o código desenvolvido na atividade 3 e aplique estilos com CSS. O estilo deverá ficar a seu critério, mas as seguintes propriedades devem ser alteradas:
+
+• Cor de fonte;
+
+• Tamanho de fonte;
+
+• Alinhamento de texto;
+
+• Tipo de fonte;
+
+• Cor de fundo.
+
+Utilizar o arquivo css para escrever a estilização. Ao finalizar, criar arquivo compacto do projeto e envia-lo como resposta para esta atividade.
+
+
+
+Para aplicar estilos CSS ao código desenvolvido na atividade 3, vamos criar um arquivo CSS separado e aplicar as propriedades solicitadas. Aqui está como você pode fazer:
+
+### 1. Criar Arquivo CSS
+
+Crie um arquivo chamado `styles.css` e adicione o seguinte código de estilos:
+
+```css
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #2E8B57;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.foto {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.foto-cidade {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.link-curso {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+.link-curso:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+```
+
+### 2. Atualizar o Arquivo HTML
+
+No seu arquivo HTML (`index.html`), inclua a referência ao arquivo CSS no `<head>`:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de [Seu Nome]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Conteúdo do currículo aqui -->
+</body>
+</html>
+```
+
+### 3. Organizar Arquivos
+
+Certifique-se de que a estrutura de arquivos esteja organizada como descrita anteriormente:
+
+```
+curriculo/
+│
+├── index.html
+├── styles.css
+├── img/
+│   ├── foto_sua.jpg
+│   └── foto_cidade.jpg
+│
+└── README.txt
+```
+
+### 4. Criar Arquivo Compactado
+
+Após completar as etapas acima, crie um arquivo zip contendo todos os arquivos e pastas do projeto (`index.html`, `styles.css`, `img/`, `README.txt`). Este arquivo compactado será enviado como resposta para esta atividade.
+
+### Nota:
+
+- Substitua `[Seu Nome]`, `[Seu Email]`, `[Seu Telefone]`, `[Seu Endereço]`, `[Nome do Curso]`, `[Nome da Instituição]`, `[Ano de Conclusão]`, `[Cargo 1]`, `[Empresa 1]`, `[Período 1]`, `[Descrição das Atividades 1]`, `[Cargo 2]`, `[Empresa 2]`, `[Período 2]`, `[Descrição das Atividades 2]`, `[Habilidade 1]`, `[Habilidade 2]`, `[Habilidade 3]`, `[Sua Cidade]`, e o URL `https://www.exemplo.com/curso` pelos seus dados reais no arquivo `index.html`.
+
+- As propriedades CSS como cor de fonte, tamanho de fonte, alinhamento de texto, tipo de fonte e cor de fundo foram customizadas no arquivo `styles.css` conforme solicitado.
