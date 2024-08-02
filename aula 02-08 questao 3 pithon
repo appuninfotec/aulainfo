@@ -13,12 +13,12 @@ def contar_numeros_pares(numeros: list) -> int:
     return count
 
 def main():
-    numeros = []
+    numeros = []  # Inicializa uma lista vazia
     n = int(input("Quantos números você deseja inserir? "))
     
     for _ in range(n):
         numero = int(input("Digite um número: "))
-        numeros.append(numero)
+        numeros.append(numero)  # Adiciona cada número à lista
     
     quantidade_pares = contar_numeros_pares(numeros)
     print(f"Quantidade de números pares: {quantidade_pares}")
