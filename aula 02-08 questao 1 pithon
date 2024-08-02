@@ -1,26 +1,23 @@
-def calcular_media_alturas(alturas: list) -> float:
+def exibir_numeros_inversos(numeros: list) -> None:
     """
-    Função que calcula a altura média de uma lista de alturas.
+    Função que exibe uma lista de números na ordem inversa de inserção.
     Parâmetros:
-    alturas (list): Lista de alturas das pessoas.
+    numeros (list): Lista de números inteiros inseridos pelo usuário.
     Retorna:
-    float: A altura média.
+    None
     """
-    if not alturas:
-        return 0.0
-    return sum(alturas) / len(alturas)
+    for numero in reversed(numeros):
+        print(numero)
 
 def main():
-    alturas = []
-    n = int(input("Quantas pessoas você deseja inserir? "))
-    
+    numeros = []
+    n = int(input("Quantos números você deseja inserir? "))
     for _ in range(n):
-        nome = input("Digite o nome da pessoa: ")
-        altura = float(input("Digite a altura da pessoa em metros: "))
-        alturas.append(altura)
+        numero = int(input("Digite um número: "))
+        numeros.append(numero)
     
-    media = calcular_media_alturas(alturas)
-    print(f"A altura média é: {media:.2f} metros")
+    print("Números na ordem inversa:")
+    exibir_numeros_inversos(numeros)
 
 if __name__ == "__main__":
     main()
