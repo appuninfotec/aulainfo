@@ -1,0 +1,27 @@
+def contar_numeros_pares(numeros: list) -> int:
+    """
+    Função que conta a quantidade de números pares em uma lista.
+    Parâmetros:
+    numeros (list): Lista de números inteiros.
+    Retorna:
+    int: Quantidade de números pares na lista.
+    """
+    count = 0
+    for numero in numeros:
+        if numero % 2 == 0:
+            count += 1
+    return count
+
+def main():
+    numeros = []
+    n = int(input("Quantos números você deseja inserir? "))
+    
+    for _ in range(n):
+        numero = int(input("Digite um número: "))
+        numeros.append(numero)
+    
+    quantidade_pares = contar_numeros_pares(numeros)
+    print(f"Quantidade de números pares: {quantidade_pares}")
+
+if __name__ == "__main__":
+    main()
