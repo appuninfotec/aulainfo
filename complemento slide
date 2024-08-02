@@ -1,0 +1,52 @@
+Boas Práticas
+Escolha nomes significativos: Os nomes das variáveis devem ser claros e descritivos.
+
+python
+Copiar código
+alturaPessoa, totalVendas, mediaNotas
+Use convenções de nomenclatura: Siga as convenções de nomenclatura da linguagem que você está utilizando (ex: camelCase, snake_case).
+
+python
+Copiar código
+nomeCompleto (camelCase)
+nome_completo (snake_case)
+Comente o código: Adicione comentários ao seu código para explicar o propósito das variáveis e as operações realizadas.
+
+python
+Copiar código
+# Armazena a idade do usuário
+idade = 25
+Evite variáveis globais: Sempre que possível, evite o uso de variáveis globais, pois elas podem levar a erros difíceis de rastrear.
+
+Inicialize variáveis: Sempre inicialize variáveis antes de usá-las para evitar comportamento inesperado.
+
+Conclusão
+Compreender variáveis e seus tipos é essencial para escrever programas eficientes e funcionais. Pratique declarando e inicializando variáveis de diferentes tipos, e veja como você pode utilizá-las em diferentes contextos dentro dos seus algoritmos.
+
+Desafio
+Crie um programa que solicite ao usuário seu nome, idade e altura, e depois exiba uma mensagem com essas informações.
+
+python
+Copiar código
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+altura = float(input("Digite sua altura: "))
+print(f"Nome: {nome}, Idade: {idade}, Altura: {altura}")
+Crie um programa que calcule o IMC (Índice de Massa Corporal) de uma pessoa, solicitando ao usuário seu peso e altura, e exibindo o resultado.
+
+python
+Copiar código
+peso = float(input("Digite seu peso (kg): "))
+altura = float(input("Digite sua altura (m): "))
+imc = peso / (altura ** 2)
+print(f"Seu IMC é: {imc:.2f}")
+Crie um programa que solicite ao usuário três notas e calcule a média ponderada, considerando pesos diferentes para cada nota.
+
+python
+Copiar código
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+peso1, peso2, peso3 = 2, 3, 5
+media_ponderada = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3)
+print(f"A média ponderada é: {media_ponderada:.2f}")
