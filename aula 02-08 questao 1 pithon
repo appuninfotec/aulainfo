@@ -1,0 +1,26 @@
+def calcular_media_alturas(alturas: list) -> float:
+    """
+    Função que calcula a altura média de uma lista de alturas.
+    Parâmetros:
+    alturas (list): Lista de alturas das pessoas.
+    Retorna:
+    float: A altura média.
+    """
+    if not alturas:
+        return 0.0
+    return sum(alturas) / len(alturas)
+
+def main():
+    alturas = []
+    n = int(input("Quantas pessoas você deseja inserir? "))
+    
+    for _ in range(n):
+        nome = input("Digite o nome da pessoa: ")
+        altura = float(input("Digite a altura da pessoa em metros: "))
+        alturas.append(altura)
+    
+    media = calcular_media_alturas(alturas)
+    print(f"A altura média é: {media:.2f} metros")
+
+if __name__ == "__main__":
+    main()
