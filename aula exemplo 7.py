@@ -27,6 +27,8 @@ elif(nivel == 4):
     total_de_tentativas = 1
     print ("nivel escolhido: Infernal")
 
+perda_por_tentativa = pontos // total_de_tentativas
+
 
 
 for rodada in range(1, total_de_tentativas + 1):

@@ -22,7 +22,6 @@ while(total_de_tentativas > 0):
     elif(menor):
         print("Você errou, pois o numero que você digitou e menor que o esperado")
 
-    total_de_tentativas = total_de_tentativas - 1
     rodada = rodada + 1
 print("fim do jogo")
     
