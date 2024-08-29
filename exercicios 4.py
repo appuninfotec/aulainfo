@@ -4,9 +4,10 @@
 
 
 soma = 0  # Inicia a soma em 0
-
+cont = 0
 # Loop que executa 10 vezes
-for i in range(10):
+while cont < 10:
+    cont = cont + 1
     # Solicita ao usuário que digite um número e converte para inteiro
     numero = int(input("Digite um número: "))
     soma += numero  # Adiciona o número digitado à soma
